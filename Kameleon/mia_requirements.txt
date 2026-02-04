@@ -1,0 +1,13 @@
+# MIA System Requirements
+torch>=2.0.0
+transformers>=4.30.0
+pyaudio>=0.2.11
+opencv-python>=4.8.0
+numpy>=1.24.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+pydub>=0.25.1
+accelerate>=0.20.0
+bitsandbytes>=0.41.0
+sentencepiece>=0.1.99
+protobuf>=4.23.0
