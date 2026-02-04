@@ -361,6 +361,12 @@
       "script": "meta_quantifier_init.py",
       "description": "Postavlja temelje za kvantitativno merjenje inteligence sistema.",
       "enabled": true
+    },
+    {
+      "id": "system_orchestrator",
+      "script": "system_orchestrator.py",
+      "description": "Upravlja celotni sistem agentov in spremlja stabilnost sistema.",
+      "enabled": true
     }
   ]
 }

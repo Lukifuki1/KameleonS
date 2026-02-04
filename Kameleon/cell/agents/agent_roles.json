@@ -724,6 +724,12 @@
     "role": "urban mobility & smart transport hacker",
     "domain": "urban IoT, traffic forensics, transport hacking",
     "description": "Napada pametne prometne sisteme, vodi forenziko urbanega transporta in razvaja odpornost."
+  },
+  {
+    "name": "agent_121",
+    "role": "system orchestrator",
+    "domain": "system management, orchestration, meta-agent",
+    "description": "Ovira in upravlja celotni sistem agentov, spremlja stabilnost in koordinira interakcije med agenti."
   }
 
 ]
