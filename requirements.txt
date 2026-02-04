@@ -1,4 +1,0 @@
-# KameleonS requirements
-
-# Core dependencies
-pytest>=6.0.0
