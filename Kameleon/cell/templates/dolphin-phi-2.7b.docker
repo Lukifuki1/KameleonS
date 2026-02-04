@@ -1,8 +1,0 @@
-{
-  "image": "dolphin:phi-2.7b",
-  "entrypoint": ["/app/serve.sh"],
-  "resources": {
-    "memory": "16G",
-    "gpu": true
-  }
-}

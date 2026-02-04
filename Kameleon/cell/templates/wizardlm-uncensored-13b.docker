@@ -1,8 +1,0 @@
-{
-  "image": "wizardlm:uncensored-13b",
-  "entrypoint": ["/app/loader.py"],
-  "resources": {
-    "memory": "48G",
-    "gpu": true
-  }
-}

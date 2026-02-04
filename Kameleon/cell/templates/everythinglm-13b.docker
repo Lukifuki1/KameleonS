@@ -1,8 +1,0 @@
-{
-  "image": "everythinglm:13b",
-  "entrypoint": ["/app/start.sh"],
-  "resources": {
-    "memory": "48G",
-    "gpu": true
-  }
-}

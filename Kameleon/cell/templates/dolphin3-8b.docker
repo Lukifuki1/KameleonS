@@ -1,8 +1,0 @@
-{
-  "image": "dolphin:3.0-8b",
-  "entrypoint": ["/app/serve.py"],
-  "resources": {
-    "memory": "32G",
-    "gpu": true
-  }
-}
