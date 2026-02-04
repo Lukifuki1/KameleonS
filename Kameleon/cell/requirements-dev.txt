@@ -1,0 +1,7 @@
+black
+ruff
+mypy
+pytest
+bandit
+safety
+vulture

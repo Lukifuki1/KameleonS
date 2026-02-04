@@ -1,0 +1,366 @@
+{
+  "scripts": [
+    {
+      "id": "semantic_mapper",
+      "script": "semantic_entropy_mapper.py",
+      "description": "Spremlja entropijo semantičnega prostora odgovorov za zaznavo degeneracije.",
+      "enabled": true
+    },
+    {
+      "id": "agent_network_graph",
+      "script": "agent_network_graph.py",
+      "description": "Ustvari in osvežuje graf povezav med agenti glede na njihove interakcije in uspešnost.",
+      "enabled": true
+    },
+    {
+      "id": "karmic_trace_analyzer",
+      "script": "karmic_trace_analyzer.py",
+      "description": "Vsaki strategiji pripiše karmični indeks: dobrobit/škodljivost za sistem.",
+      "enabled": true
+    },
+    {
+      "id": "cognitive_mirror",
+      "script": "cognitive_mirror.py",
+      "description": "Meta-agent, ki zrcali sklepe več agentov in zaznava divergence.",
+      "enabled": true
+    },
+    {
+      "id": "decay_detector",
+      "script": "decay_detector.py",
+      "description": "Zazna počasno kognitivno degeneracijo – intelektualni drift.",
+      "enabled": true
+    },
+    {
+      "id": "epistemic_noise_filter",
+      "script": "epistemic_noise_filter.py",
+      "description": "Filtrira memetični šum med agentom in znanjem – ne posega v SIS.",
+      "enabled": true
+    },
+    {
+      "id": "quantum_inference_stub",
+      "script": "quantum_inference_stub.py",
+      "description": "Pasivni modul pripravljen za prihodnjo kvantno integracijo.",
+      "enabled": true
+    },
+    {
+      "id": "epistemic_pressure_valve",
+      "script": "epistemic_pressure_valve.py",
+      "description": "Zazna homogenost agentov in sproži raznolikostno injekcijo.",
+      "enabled": true
+    },
+    {
+      "id": "fail_secure_replay_viewer",
+      "script": "fail_secure_replay_viewer.py",
+      "description": "Vizualizira pretekle fail-secure dogodke – spremljanje brez vpliva.",
+      "enabled": true
+    },
+    {
+      "id": "semantic_pathogen_injector",
+      "script": "semantic_pathogen_injector.py",
+      "description": "Vbrizga semantične napake za testiranje robustnosti SIS.",
+      "enabled": true
+    },
+    {
+      "id": "resonance_scanner",
+      "script": "resonance_scanner.py",
+      "description": "Ocenjuje resonanco sklepov z invarianto Θ.",
+      "enabled": true
+    },
+    {
+      "id": "paranoia_layer",
+      "script": "paranoia_layer.py",
+      "description": "Pasivno nadzoruje agente glede nenadne hiperaktivnosti.",
+      "enabled": true
+    },
+
+    {
+      "id": "ontology_expansion_listener",
+      "script": "ontology_expansion_listener.py",
+      "description": "Pripravljen za sprejem novih domen v Θ – pasivno indeksira predloge, ne zapisuje ničesar.",
+      "enabled": true
+    },
+    {
+      "id": "persona_mutation_logger",
+      "script": "persona_mutation_logger.py",
+      "description": "Zaznava vedenjske spremembe agentov in jih logira kot mutacije person.",
+      "enabled": true
+    },
+    {
+      "id": "agent_skill_manifest",
+      "script": "agent_skill_manifest.py",
+      "description": "Izpiše vse trenutne sposobnosti vsakega agenta v realnem času, brez aktivacije nobenega procesa.",
+      "enabled": true
+    },
+    {
+      "id": "tinker_lab",
+      "script": "tinker_lab.py",
+      "description": "Sandbox za testiranje posameznih strategij v izoliranem okolju, brez vpliva na VM laboratorije.",
+      "enabled": true
+    },
+    {
+      "id": "agent_latency_tracker",
+      "script": "agent_latency_tracker.py",
+      "description": "Meri odzivne čase agentov → zazna, če kateremu upada zmogljivost.",
+      "enabled": true
+    },
+    {
+      "id": "offline_translation_daemon",
+      "script": "offline_translation_daemon.py",
+      "description": "Lokalno omogoča dvosmerni prevod brez interneta in brez učenja.",
+      "enabled": true
+    },
+    {
+      "id": "behavioral_dna_diffuser",
+      "script": "behavioral_dna_diffuser.py",
+      "description": "Pasivno difundira uspešne vedenjske vzorce med agenti.",
+      "enabled": true
+    },
+    {
+      "id": "evolution_mirroring_archiver",
+      "script": "evolution_mirroring_archiver.py",
+      "description": "Arhivira evolucijsko pot vsakega agenta v DAG.",
+      "enabled": true
+    },
+    {
+      "id": "epistemic_trust_index",
+      "script": "epistemic_trust_index.py",
+      "description": "Izračuna zaupanje v agenta glede na stabilnost in uspešnost.",
+      "enabled": true
+    },
+    {
+      "id": "trajectory_predictor",
+      "script": "trajectory_predictor.py",
+      "description": "Napoveduje prihodnjo smer sklepanja sistema.",
+      "enabled": true
+    },
+    {
+      "id": "cognitive_gap_finder",
+      "script": "cognitive_gap_finder.py",
+      "description": "Zazna slabo pokrite koncepte v knowledge_bank.",
+      "enabled": true
+    },
+    {
+      "id": "agent_diagnostics_exporter",
+      "script": "agent_diagnostics_exporter.py",
+      "description": "Periodično izvaža metapodatke agentov za offline analizo.",
+      "enabled": true
+    },
+    {
+      "id": "strategic_freezer",
+      "script": "strategic_freezer.py",
+      "description": "Predlaga stabilizacijo pogosto uspešnih strategij.",
+      "enabled": true
+    },
+    {
+      "id": "behavioral_signature_hasher",
+      "script": "behavioral_signature_hasher.py",
+      "description": "Dodeli edinstven vedenjski hash za detekcijo anomalij.",
+      "enabled": true
+    },
+    {
+      "id": "ethics_shadow_checker",
+      "script": "ethics_shadow_checker.py",
+      "description": "Pasivno ocenjuje etično skladnost agentov.",
+      "enabled": true
+    },
+    {
+      "id": "meta_dashboard_feed",
+      "script": "meta_dashboard_feed.py",
+      "description": "Združuje loge v meta vizualizacijski tok.",
+      "enabled": true
+    },
+    {
+      "id": "agent_dependency_mapper",
+      "script": "agent_dependency_mapper.py",
+      "description": "Kartira odvisnosti med agenti.",
+      "enabled": true
+    },
+    {
+      "id": "slow_drift_detector",
+      "script": "slow_drift_detector.py",
+      "description": "Zaznava postopne spremembe v agentovih odzivih.",
+      "enabled": true
+    },
+    {
+      "id": "hypothesis_logger",
+      "script": "hypothesis_logger.py",
+      "description": "Logira začetne hipoteze agentov pred razmišljanjem.",
+      "enabled": true
+    },
+    {
+      "id": "inference_chain_auditor",
+      "script": "inference_chain_auditor.py",
+      "description": "Označi pretirano dolge sklepalne verige.",
+      "enabled": true
+    },
+    {
+      "id": "contextual_fragment_merger",
+      "script": "contextual_fragment_merger.py",
+      "description": "Povezuje sorodne fragmente znanja med agenti.",
+      "enabled": true
+    },
+    {
+      "id": "goal_score_decay_monitor",
+      "script": "goal_score_decay_monitor.py",
+      "description": "Spremlja agentno izgubo goal_score točk skozi čas.",
+      "enabled": true
+    },
+    {
+      "id": "anomaly_simulator",
+      "script": "anomaly_simulator.py",
+      "description": "Ustvarja sintetične anomalije v VM za testiranje SIS.",
+      "enabled": true
+    },
+    {
+      "id": "semantic_dust_collector",
+      "script": "semantic_dust_collector.py",
+      "description": "Zazna neuporabljene koncepte in jezikovne ostanke.",
+      "enabled": true
+    },
+    {
+      "id": "agent_capability_autoindex",
+      "script": "agent_capability_autoindex.py",
+      "description": "Avtomatsko indeksira sposobnosti agentov.",
+      "enabled": true
+    },
+    {
+      "id": "output_purifier",
+      "script": "output_purifier.py",
+      "description": "Čisti izhod agentov za jasnost, brez posega v logiko.",
+      "enabled": true
+    },
+    {
+      "id": "strategic_noise_detector",
+      "script": "strategic_noise_detector.py",
+      "description": "Zazna nestabilne strategije občutljive na mikro spremembe cilja.",
+      "enabled": true
+    },
+    {
+      "id": "epistemic_redundancy_eliminator",
+      "script": "epistemic_redundancy_eliminator.py",
+      "description": "Zazna podvajanja znanja v knowledge_bank.",
+      "enabled": true
+    },
+
+    {
+      "id": "reasoning_topology_mapper",
+      "script": "reasoning_topology_mapper.py",
+      "description": "Zgradi graf toka sklepanja med agenti.",
+      "enabled": true
+    },
+    {
+      "id": "goal_queue_monitor",
+      "script": "goal_queue_monitor.py",
+      "description": "Beleži vrstni red, čakalni čas in obdelavo ciljev.",
+      "enabled": true
+    },
+    {
+      "id": "theta_snapshot_watcher",
+      "script": "theta_snapshot_watcher.py",
+      "description": "Ustvari hash in delta sprememb vsakič, ko se Θ posodobi.",
+      "enabled": true
+    },
+    {
+      "id": "input_entropy_profiler",
+      "script": "input_entropy_profiler.py",
+      "description": "Spremlja entropijo vhodnih podatkov.",
+      "enabled": true
+    },
+    {
+      "id": "agent_communication_logger",
+      "script": "agent_communication_logger.py",
+      "description": "Logira agentno komunikacijo brez vsebine.",
+      "enabled": true
+    },
+    {
+      "id": "task_dispatch_auditor",
+      "script": "task_dispatch_auditor.py",
+      "description": "Spremlja porazdelitev nalog med agenti.",
+      "enabled": true
+    },
+    {
+      "id": "synthetic_probe_engine",
+      "script": "synthetic_probe_engine.py",
+      "description": "Generira sintetične zahteve v izoliranem VM.",
+      "enabled": true
+    },
+    {
+      "id": "silent_global_state_observer",
+      "script": "silent_global_state_observer.py",
+      "description": "Pasivno spremlja celotno stanje sistema.",
+      "enabled": true
+    },
+    {
+      "id": "voice_latency_echo",
+      "script": "voice_latency_echo.py",
+      "description": "Meri odzivnost govornega vmesnika.",
+      "enabled": true
+    },
+    {
+      "id": "external_graph_feed",
+      "script": "external_graph_feed.py",
+      "description": "Oddaja metapodatke za zunanjo vizualizacijo.",
+      "enabled": true
+    },
+    {
+      "id": "redundancy_heatmap",
+      "script": "redundancy_heatmap.py",
+      "description": "Detektira epistemološka podvajanja.",
+      "enabled": true
+    },
+    {
+      "id": "meta_stability_tracker",
+      "script": "meta_stability_tracker.py",
+      "description": "Beleži stabilne kombinacije agentnih stanj.",
+      "enabled": true
+    },
+    {
+      "id": "interaction_noise_sniffer",
+      "script": "interaction_noise_sniffer.py",
+      "description": "Zaznava akustični hrup in zvočne anomalije.",
+      "enabled": true
+    },
+    {
+      "id": "failure_forecaster",
+      "script": "failure_forecaster.py",
+      "description": "Napoveduje prihajajoče okvare komponent sistema.",
+      "enabled": true
+    },
+    {
+      "id": "stress_pulse_scheduler",
+      "script": "stress_pulse_scheduler.py",
+      "description": "V rednih intervalih izvaja mikro stresne teste v VM.",
+      "enabled": true
+    },
+    {
+      "id": "audit_log_merger",
+      "script": "audit_log_merger.py",
+      "description": "Združuje immutable loge v enoten audit dnevnik.",
+      "enabled": true
+    },
+    {
+      "id": "contradiction_listener",
+      "script": "contradiction_listener.py",
+      "description": "Zazna protislovja v sklepih agentov.",
+      "enabled": true
+    },
+    {
+      "id": "hardware_thermal_profile",
+      "script": "hardware_thermal_profile.py",
+      "description": "Spremlja termične obremenitve strojne opreme.",
+      "enabled": true
+    },
+    {
+      "id": "voice_fidelity_checker",
+      "script": "voice_fidelity_checker.py",
+      "description": "Analizira naravnost in čistost govornega izhoda.",
+      "enabled": true
+    },
+    {
+      "id": "meta_quantifier_init",
+      "script": "meta_quantifier_init.py",
+      "description": "Postavlja temelje za kvantitativno merjenje inteligence sistema.",
+      "enabled": true
+    }
+  ]
+}

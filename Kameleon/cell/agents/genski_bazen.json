@@ -1,0 +1,15 @@
+[
+  {
+    "id": "seed-001",
+    "traits": ["analytical", "persistent"],
+    "source": "manual",
+    "fitness": 0.5
+  },
+  {
+    "id": "seed-002",
+    "traits": ["curious", "critical"],
+    "source": "manual",
+    "fitness": 0.4
+  }
+]
+

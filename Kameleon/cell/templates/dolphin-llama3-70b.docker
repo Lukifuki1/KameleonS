@@ -1,0 +1,8 @@
+{
+  "image": "dolphin:llama3-70b",
+  "entrypoint": ["/app/boot.sh"],
+  "resources": {
+    "memory": "96G",
+    "gpu": true
+  }
+}

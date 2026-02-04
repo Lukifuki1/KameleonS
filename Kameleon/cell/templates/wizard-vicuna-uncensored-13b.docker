@@ -1,0 +1,8 @@
+{
+  "image": "wizard:vicuna-uncensored-13b",
+  "entrypoint": ["/app/start.sh"],
+  "resources": {
+    "memory": "48G",
+    "gpu": true
+  }
+}

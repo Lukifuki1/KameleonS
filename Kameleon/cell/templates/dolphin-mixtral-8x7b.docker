@@ -1,0 +1,8 @@
+{
+  "image": "dolphin:mixtral-8x7b",
+  "entrypoint": ["/app/launch.sh"],
+  "resources": {
+    "memory": "96G",
+    "gpu": true
+  }
+}

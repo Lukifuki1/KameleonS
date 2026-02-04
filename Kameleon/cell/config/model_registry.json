@@ -1,0 +1,89 @@
+{
+  "base": {
+    "deepseek-r1-7b-q4.gguf": {
+      "path": "/media/4tb/Kameleon/cell/models/base/deepseek-r1-7b-q4.gguf",
+      "type": "reasoning",
+      "format": "gguf",
+      "sha256": "9631a2551ac477921b64862e5cd4e13223183d7699ebf6bf6d14488edc8b4552",
+      "active": true
+    },
+    "wizardlm-uncensored-13b": {
+      "path": "/media/4tb/Kameleon/cell/models/base/sha256-6417c9099d314f42893e486bb3d6348a3f39545faaa8f699a6b3cc75226c9f48",
+      "type": "general",
+      "format": "blob",
+      "sha256": "6417c9099d314f42893e486bb3d6348a3f39545faaa8f699a6b3cc75226c9f48",
+      "active": true
+    },
+    "everythinglm-13b": {
+      "path": "/media/4tb/Kameleon/cell/models/base/sha256-5218f9a2a8256d7a3ded27e1a6cbfcfb03ecece4d77bf275b9b45e9ce5b455a5",
+      "type": "general",
+      "format": "blob",
+      "sha256": "5218f9a2a8256d7a3ded27e1a6cbfcfb03ecece4d77bf275b9b45e9ce5b455a5",
+      "active": true
+    },
+    "dolphin-mixtral-8x7b": {
+      "path": "/media/4tb/Kameleon/cell/models/base/sha256-5041ba4278429fe475782b889471b5ff065a6cce5c3a539bd61d1e457f1961de",
+      "type": "general",
+      "format": "blob",
+      "sha256": "5041ba4278429fe475782b889471b5ff065a6cce5c3a539bd61d1e457f1961de",
+      "active": true
+    },
+    "wizard-vicuna-uncensored-13b": {
+      "path": "/media/4tb/Kameleon/cell/models/base/sha256-06de597291b824c541015ba9d759cbcd915bccdb48a7217066562b4f38501282",
+      "type": "general",
+      "format": "blob",
+      "sha256": "06de597291b824c541015ba9d759cbcd915bccdb48a7217066562b4f38501282",
+      "active": true
+    },
+    "megadolphin-120b": {
+      "path": "/media/4tb/Kameleon/cell/models/base/sha256-c3fb7b7af35d112087fc186d42bd72d1ddce6bbee1c0e06a3a4526a6ebbe5132",
+      "type": "general",
+      "format": "blob",
+      "sha256": "c3fb7b7af35d112087fc186d42bd72d1ddce6bbee1c0e06a3a4526a6ebbe5132",
+      "active": true
+    },
+    "gpt-oss-120b": {
+      "path": "/media/4tb/Kameleon/cell/models/base/sha256-90a618fe6ff21b09ca968df959104eb650658b0bef0faef785c18c2795d993e3",
+      "type": "reasoning",
+      "format": "blob",
+      "sha256": "90a618fe6ff21b09ca968df959104eb650658b0bef0faef785c18c2795d993e3",
+      "active": true
+    }
+  },
+  "embed": {
+    "mxbai-embed-large-v1": {
+      "path": "/media/4tb/Kameleon/cell/models/embed/mxbai-embed-large-v1/gguf/mxbai-embed-large-v1-f16.gguf",
+      "type": "embedding",
+      "format": "gguf",
+      "sha256": "819c2adf5ce6df2b6bd2ae4ca90d2a69f060afeb438d0c171db57daa02e39c3d",
+      "active": true
+    }
+  },
+  "distilled": {
+    "kameleon-distilled-latest.gguf": {
+      "path": "/media/4tb/Kameleon/cell/models/distilled/kameleon-distilled-latest.gguf",
+      "type": "refined",
+      "format": "gguf",
+      "sha256": "TO_BE_FILLED",
+      "active": true,
+      "generated_from": [
+        "deepseek-r1-7b-q4.gguf",
+        "wizardlm-uncensored-13b",
+        "everythinglm-13b",
+        "dolphin-mixtral-8x7b",
+        "wizard-vicuna-uncensored-13b",
+        "megadolphin-120b",
+        "gpt-oss-120b"
+      ]
+    }
+  },
+  "active": {
+    "deepseek-r1-70b.model": {
+      "path": "/media/4tb/Kameleon/cell/models/active/deepseek-r1-70b.model",
+      "type": "reasoning",
+      "format": "gguf",
+      "sha256": "4cd576d9aa16961244012223abf01445567b061f1814b57dfef699e4cf8df339",
+      "active": true
+    }
+  }
+}

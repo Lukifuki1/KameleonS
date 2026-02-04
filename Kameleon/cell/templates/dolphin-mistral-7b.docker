@@ -1,0 +1,8 @@
+{
+  "image": "dolphin:mistral-7b",
+  "entrypoint": ["/app/main.sh"],
+  "resources": {
+    "memory": "32G",
+    "gpu": true
+  }
+}

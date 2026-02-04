@@ -1,0 +1,14 @@
+[
+  "/media/4tb/Kameleon/cell/models/base/dolphin3-8b.docker",
+  "/media/4tb/Kameleon/cell/models/base/dolphin-llama3-70b.docker",
+  "/media/4tb/Kameleon/cell/models/base/dolphin-mistral-7b.docker",
+  "/media/4tb/Kameleon/cell/models/base/dolphin-mixtral-8x7b.docker",
+  "/media/4tb/Kameleon/cell/models/base/dolphin-phi-2.7b.docker",
+  "/media/4tb/Kameleon/cell/models/base/everythinglm-13b.docker",
+  "/media/4tb/Kameleon/cell/models/base/llama2-uncensored-70b.docker",
+  "/media/4tb/Kameleon/cell/models/base/wizardlm-uncensored-13b.docker",
+  "/media/4tb/Kameleon/cell/models/base/wizard-vicuna-uncensored-13b.docker",
+  "/media/4tb/Kameleon/cell/models/base/qwen3-coder-480b.bin",
+  "/media/4tb/Kameleon/cell/models/base/deepseek-r1-70b.model",
+  "/media/4tb/Kameleon/cell/models/base/gpt-oss-120b.model"
+]
